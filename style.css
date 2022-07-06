@@ -1,10 +1,12 @@
 body {
     font-family: 'Roboto', sans-serif;
-
+    font-size: large;
     font-style: normal;
 }
 
+
 .tittle {
+
     font-weight: bolder lighter;
 }
 
@@ -32,7 +34,7 @@ header {
 .button-1 {
     background-color: red;
     border-radius: 5%;
-    color: black;
+    color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -111,5 +113,60 @@ header {
 .icon img {
 
     width: 40px;
+}
 
+.flexible-content {
+    display: flex;
+    margin: 5%;
+    padding: 2%;
+
+
+}
+
+.half-width {
+    width: 50%;
+
+
+}
+
+.half-width img {
+    width: 80%;
+    background-repeat: no-repeat;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.update {
+    text-align: center;
+}
+
+.subscription {
+    margin-left: 20%;
+    background-position: center;
+    background-color: bisque;
+    border-radius: 5%;
+    color: white;
+    background-position: center;
+    height: 90%;
+    width: 50%;
+    padding: 60px 70px;
+    justify-content: center;
+    display: flex;
+    font-size: 16px;
+}
+
+.subscription-button {
+    background-color: red;
+    border-radius: 5%;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
