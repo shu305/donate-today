@@ -46,10 +46,70 @@ header {
     font-weight: 600px;
 }
 
-#container {
+.amount {
     display: flex;
-    border: 30px;
-    margin: 5%;
+    align-items: center;
+}
+
+.package-description {
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+
+.title2 {
+    font-size: 50px;
     text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.box1 {
+    background-color: grey;
+    width: 270px;
+    text-align: center;
+    margin: 0 auto;
+    border: none;
+    padding: 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+
+
+}
+
+.box2 {
+    background-color: pink;
+    width: 270px;
+    text-align: center;
+    margin: 0 auto;
+    border: none;
+    padding: 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.box3 {
+    background-color: skyblue;
+    width: 270px;
+    text-align: center;
+    margin: 0 auto;
+    border: none;
+    padding: 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+
+.package-descript-text {
+    text-align: justify;
+    background-position-x: left;
+}
+
+.icon img {
+
+    width: 40px;
 
 }
