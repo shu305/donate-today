@@ -31,6 +31,42 @@ header {
     background-repeat: no-repeat;
 }
 
+
+
+.parent {
+
+
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.child {
+
+
+    background-color: white;
+    width: 30px;
+    height: 40px;
+    margin: 20px;
+}
+
+#color {
+    background-position: center;
+    color: red;
+
+
+}
+
+.donate-option-top {
+
+    text-align: center;
+
+}
+
+
+
 .button-1 {
     background-color: red;
     border-radius: 5%;
@@ -46,11 +82,6 @@ header {
     margin: 5%;
     text-align: center;
     font-weight: 600px;
-}
-
-.amount {
-    display: flex;
-    align-items: center;
 }
 
 .package-description {
@@ -94,6 +125,7 @@ header {
 }
 
 .box3 {
+
     background-color: skyblue;
     width: 270px;
     text-align: center;
@@ -112,6 +144,7 @@ header {
 
 .icon img {
 
+    display: flex;
     width: 40px;
 }
 
@@ -169,4 +202,17 @@ header {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+.footer {
+    position: -ms-page;
+    margin-bottom: 0%;
+    padding-bottom: 4%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+
 }
